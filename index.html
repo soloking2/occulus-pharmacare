@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>OCULUS PHARMACARE</title>
+    <style type="text/css">
+
+@media screen and (min-width: 769px) and (max-width: 1800px) {
+
+  ul {
+  /*background: darkorange;*/
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+li {
+    color: #fff;
+  /*background: lightskyblue;*/
+    display: block;
+    float: left;
+    padding: 0.2rem;
+    position: relative;
+    text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+    /*background: red;*/
+    cursor: pointer;
+}
+
+.navbar-default ul.dropdown-menu{
+  background: rgb(14, 3, 14);
+}
+.navbar-default ul.dropdown-menu li a{
+  color:#fff;
+  background: transparent !important;
+}
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+
+}
+
+ul li ul li a:hover{
+  color: #ff7f7f;
+   text-decoration: none;
+   font-size: 16px;
+
+
+}
+ul li ul li {
+    clear: both;
+     border-bottom: 1px solid grey;
+     font-size: 14px;
+     /*text-transform: capitalize;*/
+     /*list-style: none;*/
+    color: white;
+  width: 160px;
+}
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 200px) {
+ul li ul {
+    background: black;
+
+    visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 0.2rem;
+    left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: none;
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #2f2f2f;
+
+}
+
+p{
+  color: black;
+}
+
+.bg-image-fit-50{
+background-image: none!important;
+}
+
+
+}
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <header id="home" class="gradient-violat">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span class="logo-wraper logo-white">
+                <img src="images/oculuslogo.jpg" alt="">
+              </span></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+             <ul class="nav navbar-nav  navbar-right">
+              <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li class="dropdown"><a href="about.html" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">About Us <span class="caret"></span></a>
+              <!-- <div class="me"> -->
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">Our Mission</a></li>
+                   <li><a href="about.html">Our Vision</a></li>
+                    <li><a href="about.html">Our Management</a></li>
+                    <li><a href="boardOfDirectors.html">Board of Directors</a></li>
+                    <!--<li><a href="about.html#business">Our Business</a></li>-->
+
+                </ul>
+                <!-- </div> -->
+              </li>
+              <li><a href="products.html">Products</a>
+                  <!-- <div class="me"> -->
+               <!--  <ul>
+                  <li><a href="">Our Services</a></li>
+
+                </ul> -->
+              <!-- </div> -->
+
+              </li>
+
+               <li><a href="news.html">Health Matters</a>
+
+                 <!--<ul>
+                   <li><a href="news.html#news">News</a></li>
+                   <! <li><a href="contactus.html#map">Location</a></li>
+
+                 </ul> -->
+                <li><a href="career.html">Careers</a></li>
+
+              </li>
+              <li><a href="contactus.html" class="btn btn-orange border-none btn-rounded-corner btn-navbar">Contact Us<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          <hr class="navbar-divider">
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+    <section id="introduction" class="gradient-violat padding-top-90 home-slider">
+      <div id="home-slider" class="owl-carousel">
+           <div>
+          <div class="container">
+            <div class="row">
+              <div class="image-right-slide-bg clearfix" style="background-image:url(images/healthcare.png);margin-top: 40px; margin-right: -50px;">
+                <div class="col-md-12">
+                  <h2 class="cta-heading text-white"> Welcome to oculus pharmacare</span></h2>
+                  <p class="slider-para text-white" >We Provide Quality Healthcare Products</p>
+                  <div class="cta-btn-group">
+                    <a class="btn btn-orange border-none btn-rounded-corner" href="about.html">Learn More <span class="icon-on-button"><i class=""></i></span></a>
+                    <a class="btn btn-white border-none btn-rounded-corner" href="products.html#products">What We Offer<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="container">
+            <div class="row">
+              <div class="image-right-slide-bg clearfix" style="background-image:url(images/5.png);margin-top: 40px; margin-right: -130px;">
+                <div class="col-md-12">
+                  <h2 class="cta-heading text-white">Welcome to oculus pharmacare</h2>
+                  <p class="text-white slider-para">We Commit to Building Strong Alliances</p>
+                  <div class="cta-btn-group">
+                    <a class="btn btn-orange border-none btn-rounded-corner" href="#">Learn more <span class="icon-on-button"><i class=""></i></span></a>
+                    <a class="btn btn-white border-none btn-rounded-corner" href="#">What we Offer<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section id="services" class="padding-top-90 newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-responsive sm-display-none" src="images/heart.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="heading-wraper text-center margin-bottom-80">
+                  <h4>Companies Represented:</h4>
+                  <hr class="heading-devider gradient-orange">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <h5 class="service-title">ACINO PHARMA AG</h5>
+                <p class="services-content margin-bottom-25">A Swiss based pharmaceutical company that develops, manufactures and internationally markets well-proven and innovative pharmaceuticals in novel drug delivery forms.</p>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <h5 class="service-title">PHARMA BAVARIA INTERNATIONAL GROUP</h5>
+                <p class="services-content margin-bottom-25">A Marketing Authorization Holder, that distributes and promotes high-quality pharmaceuticals with well researched ingredients in more than 45 countries.</p>
+              </div>
+            </div>
+            <!-- <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <h5 class="service-title">RESPONSIVE DEVELOPMENT</h5>
+                <p class="services-content margin-bottom-25">Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.</p>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <h5 class="service-title">RESPONSIVE DEVELOPMENT</h5>
+                <p class="services-content margin-bottom-25">Built using the latest web technologies like html5, css3, and jQuery, rest assured Sedna will look smashing on every device under the sun.</p>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<section id="cta" class=" cta padding-top-bottom-50">
+     <div class="cd-fixed-bga cd-fixed-bg--3">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="cta-heading" style="color: black">Core values of the company(ICEC)</h3><br>
+
+            <div class="col-sm-6" >
+                            <h4 style="font-weight: 600;color: #003399">Integrity:</h4>
+                            <p style="color: black">Integrity in everything we do, winning the trust and support of all stakeholders.</p><br>
+                        </div>
+
+                        <div class="col-sm-6">
+                          <h4 style="font-weight: 600;color: #003399">Creativity:</h4>
+                             <p style="color: black">We shall strive to be creative, proactive, using innovative ways to attain our goals.</p><br>
+
+                        </div>
+
+                        <div class="col-sm-6">
+                             <h4 style="font-weight: 600;color: #003399">Excellence:</h4>
+                             <p style="color: black">At all times maintain a superior level of service in everything we do.</p><br>
+                        </div>
+
+                        <div class="col-sm-6">
+                              <h4 style="font-weight: 600;color: #003399">Customer Satisfaction:</h4>
+                             <p style="color: black">Our Customers count first.</p><br>
+                        </div>
+
+
+          </div>
+        </div>
+      </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section id="feature" class="padding-top-bottom-100 bg-image-fit-50" style="background:url(images/bg2.png)">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="feature-wiget">
+              <div class="icon-wraper">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;width:15%;height:65px;font-size:2rem;" xml:space="preserve" >
+                                        <g >
+                                            <circle style="fill:#13b1cd;" cx="256" cy="256" r="256"/>
+                                                <rect x="178.387" y="353.207" transform="matrix(0.9214 0.3887 -0.3887 0.9214 158.5036 -60.8026)" style="fill:#48AFCC;" width="102.291" height="16.303"/>
+                                            <path style="fill:#48AFCC;" d="M253.619,403.948c12.232-18.442,23.158-37.514,28.636-59.192c5.069-21.13,7.598-41.359,6.205-63.094
+                                                c-1.526-23.818-8.294-49.828-26.179-66.586c-1.725-1.613,13.43-21.489,15.529-24.612c35.19,26.24,46.879,71.301,48.763,113.362
+                                                c1.05,23.439-2.898,46.469-8.556,69.1c-4.925,19.702-14.433,37.847-24.233,55.47C280.397,420.244,267.008,412.099,253.619,403.948z
+                                                "/>
+
+                                                <rect x="193.251" y="117.646" transform="matrix(0.9214 0.3887 -0.3887 0.9214 89.3742 -77.0569)" style="fill:#48AFCC;" width="83.781" height="129.448"/>
+
+                                                <rect x="215.041" y="101.343" transform="matrix(0.9214 0.3887 -0.3887 0.9214 64.5272 -94.0148)" style="fill:#FFFFFF;" width="99.183" height="22.273"/>
+
+                                                <rect x="156.064" y="241.143" transform="matrix(0.9214 0.3887 -0.3887 0.9214 114.2286 -60.0989)" style="fill:#FFFFFF;" width="99.183" height="22.273"/>
+
+                                                <rect x="246.557" y="80.832" transform="matrix(0.9214 0.3887 -0.3887 0.9214 57.2357 -98.9914)" style="fill:#48AFCC;" width="53.46" height="22.273"/>
+
+                                                <rect x="247.944" y="60.277" transform="matrix(0.9214 0.3887 -0.3887 0.9214 49.9237 -103.9572)" style="fill:#FFFFFF;" width="67.919" height="22.273"/>
+
+                                                <rect x="194.885" y="109.502" transform="matrix(0.9214 0.3887 -0.3887 0.9214 84.6905 -70.1914)" style="fill:#71C6DE;" width="41.893" height="129.448"/>
+
+                                                <rect x="262.721" y="110.981" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 504.9631 346.3874)" style="fill:#B6F0FF;" width="49.594" height="22.273"/>
+
+                                                <rect x="296.625" y="117.862" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 533.4998 365.923)" style="fill:#FFFFFF;" width="14.275" height="22.273"/>
+
+                                                <rect x="203.732" y="250.76" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 337.2933 592.0258)" style="fill:#B6F0FF;" width="49.594" height="22.273"/>
+
+                                                <rect x="237.854" y="257.656" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 366.0814 611.6412)" style="fill:#FFFFFF;" width="14.106" height="22.273"/>
+
+                                                <rect x="247.617" y="75.621" transform="matrix(0.9214 0.3887 -0.3887 0.9214 54.2425 -94.618)" style="fill:#71C6DE;" width="26.727" height="22.273"/>
+
+                                                <rect x="280.383" y="66.91" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 541.0102 265.5378)" style="fill:#B6F0FF;" width="33.962" height="22.273"/>
+
+                                                <rect x="303.701" y="71.533" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 560.9146 278.8186)" style="fill:#FFFFFF;" width="9.922" height="22.271"/>
+                                            <path style="fill:#48AFCC;" d="M235.151,276.782l-20.628-8.704l-3.098,27.351l21.34,2.417L235.151,276.782z M210.975,266.578
+                                                l-19.789-8.351l-10.26,24.325l19.789,8.351L210.975,266.578z M154.102,264.653l16.62,13.604l17.434-21.304l-20.628-8.704
+                                                L154.102,264.653z"/>
+                                            <path style="fill:#71C6DE;" d="M201.339,262.513l-10.153-4.285l-10.26,24.325l10.153,4.285L201.339,262.513z M154.102,264.653
+                                                l16.62,13.604l17.434-21.304l-20.628-8.704L154.102,264.653z"/>
+
+                                                <rect x="105.372" y="306.593" transform="matrix(0.9214 0.3887 -0.3887 0.9214 137.4635 -43.6342)" style="fill:#E34E10;" width="142.412" height="22.693"/>
+
+                                                <rect x="108.167" y="292.712" transform="matrix(0.9214 0.3887 -0.3887 0.9214 129.4884 -31.9734)" style="fill:#FC611F;" width="71.206" height="22.693"/>
+                                            <polygon style="fill:#48AFCC;" points="218.394,114.324 287.626,165.755 298.911,139.018 221.716,106.45   "/>
+                                            <polygon style="fill:#48AFCC;" points="302.254,92.083 252.948,71.434 250.373,77.537 295.967,106.982     "/>
+                                            <path style="fill:#48AFCC;" d="M197.827,261.033l-6.641-2.801l-3.169,7.516l9.912,4.849l3.41-8.084L197.827,261.033z
+                                                 M167.526,248.248l-4.372,5.34l19.82,9.692l5.181-6.333L167.526,248.248z"/>
+                                            <path style="fill:#3194B0;" d="M305.987,222.843c-7.066-12.38-16.241-23.48-28.18-32.379c-2.099,3.123-17.254,22.999-15.529,24.617
+                                                c7.844,7.347,13.45,16.527,17.51,26.476C291.215,239.836,300.846,232.714,305.987,222.843z"/>
+                                            <circle style="fill:#71C6DE;" cx="273.306" cy="203.448" r="29.225"/>
+                                            <circle style="fill:#48AFCC;" cx="273.306" cy="203.448" r="15.841"/>
+                                            <path style="fill:#3194B0;" d="M260.475,206.879c0-8.75,7.091-15.841,15.841-15.841c3.958,0,7.537,1.505,10.312,3.907
+                                                c-2.816-4.398-7.716-7.332-13.327-7.332c-8.75,0-15.841,7.091-15.841,15.841c0,4.787,2.171,9.032,5.53,11.935
+                                                C261.412,212.92,260.475,210.017,260.475,206.879z"/>
+                                            <path style="fill:#71C6DE;" d="M386.396,446.182v-30.013c0-9.595-7.777-17.372-17.372-17.372H178.381
+                                                c-9.595,0-17.372,7.777-17.372,17.372v30.013H386.396z"/>
+                                            <path style="fill:#48AFCC;" d="M386.396,446.182V421.96c0-9.595-7.777-17.372-17.372-17.372H273.7v41.595H386.396z"/>
+                                            <polygon style="fill:#3194B0;" points="237.783,356.07 231.342,370.985 179.261,349.01 185.574,334.044    "/>
+                                        </g>
+                                    </svg>
+              </div>
+              <div class="content">
+                <h4 class="bottom-line">ACINO PRODUCTS</h4>
+                <p>The Acino Products we have on offer are:- Antimalarials (Artequin), Non-Steroidal Anti-Inflammatory Drugs(Olfen), Analgesics (Trabilin, Paraconica Infusion), Antibiotics(Mesporin), Antihypertensives (Lofral, Zenusin), Anti-Platelet(Clopacin), Nasal Decongestant (Xylo-Acino Nasal Spray).</p>
+              </div>
+            </div>
+            <div class="feature-wiget">
+              <div class="icon-wraper">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;width: 15%" xml:space="preserve">
+                                        <g>
+                                            <circle style="fill:#13b1cd;" cx="256" cy="256" r="256"/>
+                                            <path style="fill:#E34E10;" d="M321.265,431.263c-9.457,0-17.398-7.368-17.976-16.937c-5.207-85.74-32.87-115.569-62.162-147.144
+                                                c-32.026-34.534-65.147-70.246-67.4-168.274c-0.23-9.958,7.66-18.212,17.608-18.437c9.917-0.415,18.217,7.654,18.442,17.608
+                                                c1.935,84.357,27.822,112.266,57.789,144.584c30.807,33.219,65.725,70.871,71.716,169.482c0.604,9.938-6.963,18.483-16.906,19.082
+                                                L321.265,431.263z"/>
+                                            <path style="fill:#FFFFFF;" d="M346.604,118.707h-154.23c-2.985,0-5.407-2.422-5.407-5.407s2.422-5.407,5.407-5.407h154.235
+                                                c2.985,0,5.407,2.422,5.407,5.407S349.588,118.707,346.604,118.707z"/>
+                                            <path style="fill:#FFFFFF;" d="M346.604,146.176H195.195c-2.985,0-5.407-2.422-5.407-5.407c0-2.985,2.422-5.407,5.407-5.407
+                                                h151.409c2.985,0,5.407,2.422,5.407,5.407C352.01,143.754,349.588,146.176,346.604,146.176z"/>
+                                            <path style="fill:#FFFFFF;" d="M346.604,173.655H200.31c-2.985,0-5.407-2.422-5.407-5.407c0-2.985,2.422-5.407,5.407-5.407h146.294
+                                                c2.985,0,5.407,2.422,5.407,5.407C352.01,171.233,349.588,173.655,346.604,173.655z"/>
+                                            <path style="fill:#FFFFFF;" d="M313.8,352.471H171.412c-2.985,0-5.407-2.422-5.407-5.407s2.422-5.407,5.407-5.407H313.8
+                                                c2.985,0,5.407,2.422,5.407,5.407S316.785,352.471,313.8,352.471z"/>
+                                            <path style="fill:#FFFFFF;" d="M318.761,379.95H174.234c-2.985,0-5.407-2.422-5.407-5.407c0-2.985,2.422-5.407,5.407-5.407h144.527
+                                                c2.985,0,5.407,2.422,5.407,5.407C324.168,377.528,321.746,379.95,318.761,379.95z"/>
+                                            <path style="fill:#FFFFFF;" d="M321.382,407.419H179.348c-2.985,0-5.407-2.422-5.407-5.407s2.422-5.407,5.407-5.407h142.034
+                                                c2.985,0,5.407,2.422,5.407,5.407S324.367,407.419,321.382,407.419z"/>
+                                            <path style="fill:#FC611F;" d="M180.224,434.724c-7.977,0-15.227-5.417-17.224-13.507c-24.832-100.828,39.014-145.3,90.317-181.038
+                                                c51.871-36.127,92.841-64.66,68.05-139.561c-3.077-9.308,1.966-19.343,11.274-22.431c9.308-3.092,19.348,1.966,22.431,11.274
+                                                c33.106,100.05-27.761,142.438-81.464,179.85c-51.052,35.553-95.145,66.268-76.14,143.411c2.345,9.523-3.471,19.133-12.989,21.478
+                                                C183.06,434.555,181.627,434.724,180.224,434.724z"/>
+                                        </g>
+                                    </svg>
+              </div>
+              <div class="content">
+                <h4 class="bottom-line">OCULUS OPHTHALMIC PRODUCTS</h4>
+                <p>The Oculus Ophthalmic Products we have are Anti-Allergic Preparations (Ocullerg), Anti-Inflammatory (Ocudex), Antibiotics/Anti-Inflammatory (Quiflocin Plus), Antibiotics (Quiflocin).</p>
+              </div>
+            </div>
+            <div class="feature-wiget">
+              <div class="icon-wraper">
+                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewbox="0 0 512 512" style="enable-background:new 0 0 512 512;width:15%;height:65px;font-size:2rem;" xml:space="preserve" >
+                                        <g >
+                                            <circle style="fill:#13b1cd;" cx="256" cy="256" r="256"/>
+                                                <rect x="178.387" y="353.207" transform="matrix(0.9214 0.3887 -0.3887 0.9214 158.5036 -60.8026)" style="fill:#48AFCC;" width="102.291" height="16.303"/>
+                                            <path style="fill:#48AFCC;" d="M253.619,403.948c12.232-18.442,23.158-37.514,28.636-59.192c5.069-21.13,7.598-41.359,6.205-63.094
+                                                c-1.526-23.818-8.294-49.828-26.179-66.586c-1.725-1.613,13.43-21.489,15.529-24.612c35.19,26.24,46.879,71.301,48.763,113.362
+                                                c1.05,23.439-2.898,46.469-8.556,69.1c-4.925,19.702-14.433,37.847-24.233,55.47C280.397,420.244,267.008,412.099,253.619,403.948z
+                                                "/>
+
+                                                <rect x="193.251" y="117.646" transform="matrix(0.9214 0.3887 -0.3887 0.9214 89.3742 -77.0569)" style="fill:#48AFCC;" width="83.781" height="129.448"/>
+
+                                                <rect x="215.041" y="101.343" transform="matrix(0.9214 0.3887 -0.3887 0.9214 64.5272 -94.0148)" style="fill:#FFFFFF;" width="99.183" height="22.273"/>
+
+                                                <rect x="156.064" y="241.143" transform="matrix(0.9214 0.3887 -0.3887 0.9214 114.2286 -60.0989)" style="fill:#FFFFFF;" width="99.183" height="22.273"/>
+
+                                                <rect x="246.557" y="80.832" transform="matrix(0.9214 0.3887 -0.3887 0.9214 57.2357 -98.9914)" style="fill:#48AFCC;" width="53.46" height="22.273"/>
+
+                                                <rect x="247.944" y="60.277" transform="matrix(0.9214 0.3887 -0.3887 0.9214 49.9237 -103.9572)" style="fill:#FFFFFF;" width="67.919" height="22.273"/>
+
+                                                <rect x="194.885" y="109.502" transform="matrix(0.9214 0.3887 -0.3887 0.9214 84.6905 -70.1914)" style="fill:#71C6DE;" width="41.893" height="129.448"/>
+
+                                                <rect x="262.721" y="110.981" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 504.9631 346.3874)" style="fill:#B6F0FF;" width="49.594" height="22.273"/>
+
+                                                <rect x="296.625" y="117.862" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 533.4998 365.923)" style="fill:#FFFFFF;" width="14.275" height="22.273"/>
+
+                                                <rect x="203.732" y="250.76" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 337.2933 592.0258)" style="fill:#B6F0FF;" width="49.594" height="22.273"/>
+
+                                                <rect x="237.854" y="257.656" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 366.0814 611.6412)" style="fill:#FFFFFF;" width="14.106" height="22.273"/>
+
+                                                <rect x="247.617" y="75.621" transform="matrix(0.9214 0.3887 -0.3887 0.9214 54.2425 -94.618)" style="fill:#71C6DE;" width="26.727" height="22.273"/>
+
+                                                <rect x="280.383" y="66.91" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 541.0102 265.5378)" style="fill:#B6F0FF;" width="33.962" height="22.273"/>
+
+                                                <rect x="303.701" y="71.533" transform="matrix(-0.9214 -0.3887 0.3887 -0.9214 560.9146 278.8186)" style="fill:#FFFFFF;" width="9.922" height="22.271"/>
+                                            <path style="fill:#48AFCC;" d="M235.151,276.782l-20.628-8.704l-3.098,27.351l21.34,2.417L235.151,276.782z M210.975,266.578
+                                                l-19.789-8.351l-10.26,24.325l19.789,8.351L210.975,266.578z M154.102,264.653l16.62,13.604l17.434-21.304l-20.628-8.704
+                                                L154.102,264.653z"/>
+                                            <path style="fill:#71C6DE;" d="M201.339,262.513l-10.153-4.285l-10.26,24.325l10.153,4.285L201.339,262.513z M154.102,264.653
+                                                l16.62,13.604l17.434-21.304l-20.628-8.704L154.102,264.653z"/>
+
+                                                <rect x="105.372" y="306.593" transform="matrix(0.9214 0.3887 -0.3887 0.9214 137.4635 -43.6342)" style="fill:#E34E10;" width="142.412" height="22.693"/>
+
+                                                <rect x="108.167" y="292.712" transform="matrix(0.9214 0.3887 -0.3887 0.9214 129.4884 -31.9734)" style="fill:#FC611F;" width="71.206" height="22.693"/>
+                                            <polygon style="fill:#48AFCC;" points="218.394,114.324 287.626,165.755 298.911,139.018 221.716,106.45   "/>
+                                            <polygon style="fill:#48AFCC;" points="302.254,92.083 252.948,71.434 250.373,77.537 295.967,106.982     "/>
+                                            <path style="fill:#48AFCC;" d="M197.827,261.033l-6.641-2.801l-3.169,7.516l9.912,4.849l3.41-8.084L197.827,261.033z
+                                                 M167.526,248.248l-4.372,5.34l19.82,9.692l5.181-6.333L167.526,248.248z"/>
+                                            <path style="fill:#3194B0;" d="M305.987,222.843c-7.066-12.38-16.241-23.48-28.18-32.379c-2.099,3.123-17.254,22.999-15.529,24.617
+                                                c7.844,7.347,13.45,16.527,17.51,26.476C291.215,239.836,300.846,232.714,305.987,222.843z"/>
+                                            <circle style="fill:#71C6DE;" cx="273.306" cy="203.448" r="29.225"/>
+                                            <circle style="fill:#48AFCC;" cx="273.306" cy="203.448" r="15.841"/>
+                                            <path style="fill:#3194B0;" d="M260.475,206.879c0-8.75,7.091-15.841,15.841-15.841c3.958,0,7.537,1.505,10.312,3.907
+                                                c-2.816-4.398-7.716-7.332-13.327-7.332c-8.75,0-15.841,7.091-15.841,15.841c0,4.787,2.171,9.032,5.53,11.935
+                                                C261.412,212.92,260.475,210.017,260.475,206.879z"/>
+                                            <path style="fill:#71C6DE;" d="M386.396,446.182v-30.013c0-9.595-7.777-17.372-17.372-17.372H178.381
+                                                c-9.595,0-17.372,7.777-17.372,17.372v30.013H386.396z"/>
+                                            <path style="fill:#48AFCC;" d="M386.396,446.182V421.96c0-9.595-7.777-17.372-17.372-17.372H273.7v41.595H386.396z"/>
+                                            <polygon style="fill:#3194B0;" points="237.783,356.07 231.342,370.985 179.261,349.01 185.574,334.044    "/>
+                                        </g>
+                                    </svg>
+              </div>
+              <div class="content">
+                <h4 class="bottom-line">NOMEDI PRODUCTS</h4>
+                <p>The Nomedi Products we have on offer are  Antimalarials - (Nometafan, Nomepramal), Antibiotics (Nomexiclav, Nomethromax, Sporfix), Anti-Platelet (Noplat), Antiprotozoal (Fludazole), Anti-Ulcer (Ladacin).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta" class="gradient-violat cta padding-top-bottom-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="cta-heading text-white">Your Sure Provider of high quaLITY HEALTHCARE PRODUCTS</h3>
+            <p class="text-white" style="font-style: italic;">OCULUS PHARMACARE</p>
+            <div class="cta-btn-group">
+              <a class="btn btn-orange border-none btn-rounded-corner" href="products.html">View Our Products <span class="icon-on-button"><i class="ion-ios-download-outline"></i></span></a>
+              <a class="btn btn-white gradient-white border-none btn-rounded-corner" href="about.html">About Us<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="blog-card" class="padding-top-bottom-90">
+      <div class="container">
+        <div class="heading-wraper text-center margin-bottom-80">
+          <h4>Some of our products</h4>
+          <hr class="heading-devider gradient-orange">
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top img-responsive max-width-100" src="oculus/olfen.jpg" alt="Card image cap" style="height: 300px">
+              <div class="card-block">
+                <p class="card-text"><small class="text-muted blog-category">Acino Product</small></p>
+                <h4 class="card-title" style="font-style: italic;">Non Steroidal Anti-Inflammatory drug</h4>
+                <!-- <p class="card-text"><small class="text-muted italic">21<sup>st</sup> jun 2016</small></p> -->
+                <p class="card-text"> Diclofenac Sodium</p>
+                <a href="products.html#products" class="btn btn-link">View more <span><i class="ion-ios-arrow-thin-right"></i></span> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+           <div class="card">
+              <img class="card-img-top img-responsive max-width-100" src="oculus/lofral.jpg" alt="Card image cap" style="height: 300px">
+              <div class="card-block">
+                <p class="card-text"><small class="text-muted blog-category">Acino Product</small></p>
+                <h4 class="card-title" style="font-style: italic;">Anti-Hypertensive</h4>
+                <!-- <p class="card-text"><small class="text-muted italic">21<sup>st</sup> jun 2016</small></p> -->
+                <p class="card-text"> Amlodipine / Tablets,.</p>
+                <a href="products.html#products" class="btn btn-link">View more <span><i class="ion-ios-arrow-thin-right"></i></span> </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img class="card-img-top img-responsive max-width-100" src="oculus/noplat.jpg" alt="Card image cap">
+              <div class="card-block">
+                <p class="card-text"><small class="text-muted blog-category">Nomedi Product</small></p>
+                <h4 class="card-title">Anti-Platelet</h4>
+                <!-- <p class="card-text"><small class="text-muted italic">21<sup>st</sup> jun 2016</small></p> -->
+                <p class="card-text">Tablet, Clopidogrel (as bisulfate)75mg; f-c tab.</p>
+                <a href="products.html#products" class="btn btn-link">View more <span><i class="ion-ios-arrow-thin-right"></i></span> </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="padding-top-120" style="background-color:#eee">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-left-content">
+              <div class="logo-colored">
+                <img src="images/oculuslogo.jpg" alt="">
+              </div>
+              <div class="content">
+                <p class="margin-bottom-30 margin-top-30">We were established in the year 2000 with the aim of marketing and distributing pharmaceuticals and allied products.
+We are a nigerian owned business with international affiliations.</p>
+                <p>08133368311</p>
+                <p>info@oculuspharma-ng.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="row" style="margin-left: 20px">
+              <div class="col-md-4 col-sm-6" >
+                <div class="footer-list-wiget">
+                  <h4>learn more</h4>
+                  <div class="list-group">
+                    <a href="about.html#about" class="list-group-item">About Oculus</a>
+                    <a href="about.html#about" class="list-group-item">Our History</a>
+                    <a href="about.html#mission" class="list-group-item">Our Mission Statement</a>
+                    <a href="about.html#vision" class="list-group-item">Our Vision Statement</a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="col-md-3 col-sm-6">
+                <div class="footer-list-wiget">
+                  <h4>Support</h4>
+                  <div class="list-group">
+                    <a href="#" class="list-group-item">Our Business</a>
+                    <a href="#" class="list-group-item">Contact US</a>
+                    <a href="#" class="list-group-item">Outlook Plugin</a>
+                    <a href="#" class="list-group-item">Phone Control</a>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-md-4 col-sm-6">
+                <div class="footer-list-wiget">
+                  <h4>About</h4>
+                  <div class="list-group">
+                    <a href="about.html#about" class="list-group-item">About Us</a>
+                    <a href="career.html" class="list-group-item">Career</a>
+                    <a href="news.html" class="list-group-item">Health Matters</a>
+                    <a href="news.html#news" class="list-group-item">News</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <div class="footer-list-wiget">
+                  <h4>Products</h4>
+                  <div class="list-group">
+                    <a href="products.html" class="list-group-item">Our products</a>
+                    <a href="products.html#more" class="list-group-item">Product List</a>
+                    <a href="products.html#offer" class="list-group-item">What We Offer</a>
+                    <!-- <a href="#" class="list-group-item">Intro</a> -->
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <hr class="footer-divider">
+          <div class="copyright-cta">
+            <p class="text-uppercase">Powered By <a href="https://itscopesolutions.com"><span class="span text-violat " style="color: #e86c6c">ITScope Solutions</span></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-end-line"></div>
+    </footer>
+    <div id="scroll-top-div" class="scroll-top-div">
+      <div class="scroll-top-icon-container">
+        <i class="ion-ios-arrow-thin-up"></i>
+      </div>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
